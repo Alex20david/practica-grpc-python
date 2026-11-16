@@ -4,10 +4,9 @@ Implementación práctica de comunicación remota de alto rendimiento utilizando
 
 Desarrollado para la asignatura de **Sistemas Distribuidos** — *Universidad Politécnica Salesiana*.
 
----
-
 ## Arquitectura y Estructura del Repositorio
 
+```text
 Ejercicios_gRPC/
 ├── ejercicio1_pagos/           # Patrón Unario (Request / Response)
 │   ├── pagos.proto             # Contrato de interfaz del servicio ValidadorPagos
@@ -25,9 +24,7 @@ Ejercicios_gRPC/
 │
 ├── .gitignore                  # Exclusión de entorno virtual y archivos compilados
 └── README.md                   # Documentación del proyecto
-
----
-
+```
 ## Requisitos e Instalación
 
 1. **Clonar el repositorio y entrar al directorio:**
